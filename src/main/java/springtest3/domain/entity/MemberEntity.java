@@ -9,6 +9,7 @@ import javax.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter @Setter @ToString
+@Table(name="membertest")
 public class MemberEntity {
     @Id // PK 설정
     @GeneratedValue(strategy = GenerationType.IDENTITY) // auto key
